@@ -1,0 +1,20 @@
+.page-content {
+  background-color: #fff;
+  
+
+}
+
+.page-content__container {
+  display:flex;
+}
+
+.page-content_pt-45_pb-60 {
+  padding: 45px 0 60px 0;
+}
+.page-content_pt-45_pb-37 {
+  padding: 45px 0 37px 0;
+}
+
+.page-content_pt-45_pb-65 {
+  padding: 45px 0 65px 0;
+}

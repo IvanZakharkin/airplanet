@@ -1,0 +1,18 @@
+.footer {
+  background: #4b73b5;
+  color: #fff;
+  font-size: 14px;
+  min-width: 1060px;
+  
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+.footer__logo {
+  padding: 10px 0;
+
+}

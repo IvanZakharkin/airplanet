@@ -1,0 +1,89 @@
+.intro {
+  position: absolute;
+  top:0;
+  left:0;
+  background: url('/img/intro/intro_background.jpg') no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.intro-content {
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: stretching 0.7s 1s cubic-bezier(.52,.52,.45,1.57) backwards;
+}
+
+@keyframes stretching{
+  from {
+    opacity: 0;
+  }
+
+  40% {
+    transform: translateY(-30px);
+
+  }
+
+  60% {
+    transform: translateY(-10px);
+  }
+
+  80% {
+    transform: translateY(-20px);
+
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+    
+  }
+}
+
+.intro-content__logo {
+  margin-bottom: 40px;
+
+}
+
+
+
+.intro-content__btn-link {
+  font-size: 12px;
+  font-weight: bold;
+  color: #1c5bc4;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  border: 1px solid #1c5bc3;
+  border-radius: 3px;
+  padding: 15px 20px;
+  letter-spacing: 2.3px;
+  
+}
+
+.intro-content__btn-link:after {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 14px;
+  background: url('/img/icon/sprite.png');
+  background-position: -5px -146px;
+  margin-left: 10px;
+}
+
+.intro-content__btn-link:hover {
+  color: #fff;
+  background: #1c5bc4;
+  transition: 0.3s;
+}
+.intro-content__btn-link:hover:after {
+  background-position: -5px -122px;
+  margin-left: 10px;
+}
+

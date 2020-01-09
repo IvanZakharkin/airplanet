@@ -1,0 +1,17 @@
+.banner {
+  height: 299px;
+  position: relative;
+}
+.banner_mb_7 {
+  margin-bottom: 7px;
+}
+
+
+.banner__pic {
+  height: 300px;
+  width: 2000px;
+  position: absolute;
+  background: url("../../img/banner.png") 0 center no-repeat;
+  background-size: contain;
+}
+

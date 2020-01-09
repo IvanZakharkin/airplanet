@@ -1,0 +1,92 @@
+.nav_gorizont {
+  margin-bottom: 15px;
+  
+}
+.nav_gorizont .nav__list{
+  flex-direction: row;
+}
+.nav_gorizont .nav__item{
+  margin-bottom:0;
+  margin-right: 93px;
+}
+
+.nav__item {
+  margin-bottom: 30px;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__item:last-child {
+  margin-bottom: 0px;
+}
+
+.nav__link {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  color: #4b73b5;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav__link:hover {
+  color: #221f1f;
+}
+
+.nav__link::before {
+  content: "";
+  display: block;
+  margin-right: 14px;
+  background: url('../../img/icon/sprite.png') no-repeat;
+}
+
+.nav__link--icon--plane::before {
+  width: 23px;
+  height: 18px;
+  background-position: -5px -66px;
+}
+
+.nav__link--icon--reviews::before {
+  background-position: -5px -170px;
+  width: 23px;
+  height: 18px;
+}
+
+.nav__link--icon--team::before {
+  background-position: -5px -348px;
+  width: 23px;
+  height: 18px;
+}
+
+.nav__link--icon--plane:hover::before {
+  background-position: -5px -94px;
+}
+
+.nav__link--icon--reviews:hover::before {
+  background-position: -5px -198px;
+}
+
+.nav__link--icon--team:hover::before {
+  background-position: -5px -376px;
+}
+
+.nav__item--active .nav__link {
+  color: #221f1f;
+}
+
+
+
+.nav__item--active .nav__link--icon--plane::before {
+  background-position: -5px -94px;
+}
+.nav__item--active .nav__link--icon--reviews::before {
+  background-position: -5px -198px;
+}
+.nav__item--active .nav__link--icon--team::before {
+  background-position: -5px -376px;
+}

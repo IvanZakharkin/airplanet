@@ -1,0 +1,14 @@
+.header {
+  background: #4b73b5;
+
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0 16px 0;
+}
+
+.header__logo {
+  padding-top: 4px;
+}

@@ -1,0 +1,101 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-fb {
+    width: 6px;
+    height: 13px;
+    background-position: -5px -5px;
+}
+
+.sprite-google {
+    width: 15px;
+    height: 9px;
+    background-position: -5px -28px;
+}
+
+.sprite-mail {
+    width: 12px;
+    height: 9px;
+    background-position: -5px -47px;
+}
+
+.sprite-nav_icon_plane {
+    width: 17px;
+    height: 18px;
+    background-position: -5px -66px;
+}
+
+.sprite-nav_icon_plane-hover {
+    width: 17px;
+    height: 18px;
+    background-position: -5px -94px;
+}
+
+.sprite-plane_btn {
+    width: 15px;
+    height: 14px;
+    background-position: -5px -122px;
+}
+
+.sprite-plane_btn_blue {
+    width: 15px;
+    height: 14px;
+    background-position: -5px -146px;
+}
+
+.sprite-reviews_icon {
+    width: 20px;
+    height: 18px;
+    background-position: -5px -170px;
+}
+
+.sprite-reviews_icon_hover {
+    width: 20px;
+    height: 18px;
+    background-position: -5px -198px;
+}
+
+.sprite-tariff__icon-flower {
+    width: 27px;
+    height: 31px;
+    background-position: -5px -226px;
+}
+
+.sprite-tariff__icon-palette {
+    width: 28px;
+    height: 29px;
+    background-position: -5px -267px;
+}
+
+.sprite-tariff__icon-star {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -306px;
+}
+
+.sprite-team_icon {
+    width: 23px;
+    height: 18px;
+    background-position: -5px -348px;
+}
+
+.sprite-team_icon_hover {
+    width: 23px;
+    height: 18px;
+    background-position: -5px -376px;
+}
+
+.sprite-twitter {
+    width: 11px;
+    height: 9px;
+    background-position: -5px -404px;
+}
+
+.sprite-vk {
+    width: 12px;
+    height: 7px;
+    background-position: -5px -423px;
+}

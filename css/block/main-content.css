@@ -1,0 +1,14 @@
+/* .main-content {
+  flex:1;
+} */
+
+
+
+.main-content__tariffs {
+  margin-bottom: 45px;
+}
+
+.main-content__banner {
+  margin-top: -31px;
+  margin-bottom: 4px;
+}

@@ -1,0 +1,73 @@
+.socials {
+  width: 240px;
+  padding:5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.socials_aside {
+  width: 240px;
+  padding: 5px 0;
+  flex-direction: column;
+  align-items: center;
+}
+.socials_aside .socials__list{
+  margin-right: 0px; 
+}
+
+
+.socials__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-right: 4px; 
+  
+}
+
+.socials__text {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.socials__item {
+  margin-right: 10px;
+}
+.socials__item:last-child {
+  margin-right: 0px;
+}
+
+.social__link {
+  display: block;
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: url('../../img/icon/sprite.png') #fff no-repeat;
+  opacity: 0.6;
+}
+
+.social__link:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.social__link_vk {
+  background-position: -1px -417px;
+}
+
+.social__link_fs {
+  background-position: 2px -2px;
+}
+
+.social__link_gplus {
+  background-position: -1px -23px;
+}
+
+.social__link_tw {
+  background-position: 0px -399px;
+}
+
+.social__link_email {
+  background-position: -1px -42px;
+}
